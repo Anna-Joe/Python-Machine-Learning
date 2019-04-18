@@ -13,6 +13,25 @@ def function_composer(*args):
   return reduce(lanbda f,g: lambda x:f(g(x)),args)
   #暂时还没有看懂他这个return是怎么回事，只知道reduce是一个能组合子函数的函数但是不知道这个函数的用法
 ```
+```
+reduce() 函数
+对参数序列中元素进行累积。
+
+函数将一个数据集合（链表，元组等）中的所有数据进行下列操作：
+用传给 reduce 中的函数 function（有两个参数）先对集合中的第 1、2 个元素进行操作
+得到的结果再与第三个数据用 function 函数运算，最后得到一个结果。
+
+语法
+reduce(function, iterable[, initializer])
+
+参数
+function -- 函数，有两个参数
+iterable -- 可迭代对象
+initializer -- 可选，初始参数
+
+返回值
+返回函数计算结果。
+```
 3.调用组合函数的方法     
 ```python
 func_composed=function_composer(fun1,fun2,fun3,...)
@@ -142,4 +161,14 @@ def pearson_score(dataset, user1, user2):
     return Sxy / np.sqrt(Sxx * Syy)
 ```
 - 生成推荐用户 
+在数据集中搜索匹配度高的内容，并且输出
 
+```
+python中的单下划线
+按照习惯，有时候单个独立下划线是用作一个名字，来表示某个变量是临时的或无关紧要的。
+
+例如，在下面的循环中，我们不需要访问正在运行的索引，我们可以使用“_”来表示它只是一个临时值：
+
+ for _ in range(32):
+   print('Hello, World.')
+```
