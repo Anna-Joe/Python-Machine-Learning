@@ -9,4 +9,3 @@
  [自然语言处理，即文本的分析](https://github.com/Anna-Joe/Python-Machine-Learning/blob/master/Note6.md)     
  [隐马尔科夫模型下的语音识别](https://github.com/Anna-Joe/Python-Machine-Learning/blob/master/Note7.md)    
  [使用OpenCV-Python库做图像处理](https://github.com/Anna-Joe/Python-Machine-Learning/blob/master/Note8.md)      
- [人脸识别](https://github.com/Anna-Joe/Python-Machine-Learning/blob/master/Note9.md) 
